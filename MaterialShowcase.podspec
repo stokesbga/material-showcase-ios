@@ -14,6 +14,7 @@ s.source           = { :git => 'https://github.com/aromajoin/material-showcase-i
 
 s.ios.deployment_target = '8.0'
 s.source_files = 'MaterialShowcase/*.swift'
+s.static_framework = true
 
 end
 ## Execute push: $pod trunk push MaterialShowcase.podspec
